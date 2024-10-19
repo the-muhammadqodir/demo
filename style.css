@@ -1,0 +1,72 @@
+/* ****** 
+ FONTS 
+***** */
+@font-face {
+  font-family: montserrat_100;
+  src: url("./fonts/Montserrat-Thin.ttf");
+}
+
+@font-face {
+  font-family: montserrat_200;
+  src: url("./fonts/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: montserrat_300;
+  src: url("./fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: montserrat_400;
+  src: url("./fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: montserrat_500;
+  src: url("./fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: montserrat_600;
+  src: url("./fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: montserrat_700;
+  src: url("./fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: montserrat_800;
+  src: url("./fonts/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: montserrat_900;
+  src: url("./fonts/Montserrat-Black.ttf");
+}
+
+/* ******
+ BASIC STYLE
+***** */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat_400;
+}
+
+/* ****** COLORS STYLE ***** */
+:root {
+  --main-color: #252B42;
+  --secondary-color: #26a6ef;
+  --third-color: #737373;
+  --bg-color: #e6e6e6;
+  --default-color: #fff;
+
+  --bg-smile: #b2e3ff;
+  --bg-accept: #b9eaa7;
+  --bg-setting: #ffdcd1;
+  --line-color: #e6403f;
+}
